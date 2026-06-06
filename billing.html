@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <a href="dashboard.html">Dashboard</a>
+    <a href="patients.html">Patients</a>
+    <a href="queue.html">Queue</a>
+    <a href="billing.html">Billing</a>
+    <a href="reports.html">Reports</a>
+</div>
+
+<div class="main">
+    <h1>Billing</h1>
+
+    <input id="fee" placeholder="Consultation Fee">
+    <input id="med" placeholder="Medicine Charges">
+
+    <button onclick="bill()">Generate Bill</button>
+
+    <h3 id="total"></h3>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
