@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #2c3e50;
+    position: fixed;
+    padding: 10px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #34495e;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    padding: 20px;
+    background: #eee;
+}
